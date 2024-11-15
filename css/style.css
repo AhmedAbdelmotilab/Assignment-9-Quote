@@ -1,0 +1,49 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* --------------------------------------------------------------------------------------------------- */
+.Title h1 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 80px;
+  color: #000;
+  padding-block: 2.5rem;
+}
+.Title p {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 35px;
+  color: #000;
+  padding-bottom: 2.5rem;
+}
+.Title button {
+  padding-block: 2rem;
+  padding-inline: 6rem;
+  background-color: #0000ff;
+  font-size: 20px;
+  color: #fff;
+}
+.Title button:hover {
+  background-color: #008000;
+  color: #fff;
+}
+/* --------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------ Quote Section ------------------------------------------ */
+.inner h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 35px;
+  color: #008000;
+}
+.inner p,
+.inner h3 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  font-size: 35px;
+  color: #000;
+}
+/* --------------------------------------------------------------------------------------------------- */
